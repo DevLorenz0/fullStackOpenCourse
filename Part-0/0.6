@@ -1,1 +1,25 @@
 0.6: New note
+
+Image:
+
+Check 0.6 PNG
+
+https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgMC41OiBOZXcgbm90ZQoKbm90ZSBvdmVyIGJyb3dzZXI6ClVzZXIgc3VibWl0IGZvcm0gLS0-IENvbnZlcnRlZCB0byBKU09OCmVuZAA9BwAzBy0-c2VydmVyOiBIVFRQIFBPU1QgaHR0cHM6Ly9zdHVkaWVzLmNzLmhlbHNpbmtpLmZpL2V4YW1wbGVhcHAvbmV3X25vdGVfc3BhIChhcHBsaWNhdGlvbi9qc29uKQoKAFcGLS0-AIEhCCBzdGF0dXMgMjAxIGNyZWF0ZWQgLSB7IGNvbnRlbnQ6ICIiLCBkYXRlOiAiIiB9AIFXFUEgbgCCBAcgaXMAPQlhbmQgYWRkZWQgaW4gdGhlIGxpc3Qgb2YAgi8FcwCCCwVUaGVuIHJlcmVuZGVyAB8FcGFnZSAobm90IHJlZGlyZWN0KQCCGQsK&s=default
+
+Code:
+
+title 0.5: New note
+
+note over browser:
+User submit form --> Converted to JSON
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa (application/json)
+
+server-->browser: status 201 created - { content: "", date: "" }
+
+note over browser:
+A new note is created and added in the list of notes --> Then rerender the page (not redirect)
+end note
+
+
