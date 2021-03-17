@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Header = ({course}) => { 
-  console.log(course)
+  alert(course)
   return (<h1>{course.name}</h1>)
 };
 
