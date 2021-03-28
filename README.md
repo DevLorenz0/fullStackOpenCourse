@@ -1,5 +1,7 @@
-# Let's Goal
-Volunteer and help to change the world
+# **Let's Goal**
+*Volunteer and help to change the world*
+
+Video if possible or logo
 
 ---
 
@@ -64,8 +66,13 @@ Conner: "I feel like I’ve improved a lot.  I’ve learned  a lot of communicat
 
 ---
 
-Built With #javascript, #html, #css, #sqlite
+Built With #javascript, #html, #css, #sql, #sqlite, #python, #flask
 
-Links:
-Presentation:
+#### Links:
+Presentation: https://docs.google.com/presentation/d/1GgYKkaBDwpMgMIW59Lra1EExp8iOjtmTKrvyLgDtUDI/edit?usp=sharing
 Website: 
+DevPost project:
+
+Thanks for reading!
+
+**Let's Goal**, *Volunteer and help to change the world*
